@@ -7,7 +7,7 @@ import Link from 'next/link';
 import AgentFlowCard from '@/components/AgentFlowCard';
 import TokenExchangeCard from '@/components/TokenExchangeCard';
 
-interface Message {
+interface Message { 
   id: string;
   role: 'user' | 'assistant';
   content: string;
@@ -191,7 +191,7 @@ export default function Home() {
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary via-primary-light to-court-brown">
         <div className="flex flex-col items-center space-y-4">
           <span className="text-6xl animate-bounce">🏀</span>
-          <div className="text-white text-xl font-display">Loading CourtEdge ProGear...</div>
+          <div className="text-white text-xl font-display">Loading ProGear Training App...</div>
         </div>
       </div>
     );
@@ -220,8 +220,8 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <h1 className="text-white text-2xl font-bold">CourtEdge ProGear</h1>
-              <p className="text-gray-300 text-sm">AI-Powered Basketball Equipment Sales</p>
+              <h1 className="text-white text-2xl font-bold">ProGear Training App</h1>
+              <p className="text-gray-300 text-sm">AI-Powered Basketball Equipment Sales Training</p>
             </div>
           </div>
 
